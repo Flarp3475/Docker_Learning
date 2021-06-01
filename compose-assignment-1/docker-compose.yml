@@ -13,8 +13,6 @@ services:
     
   mysqldatabase:
     image: postgres
-    ports: 
-        - 8080:8080
     environment:
         - POSTGRES_PASSWORD=mypassword
 
